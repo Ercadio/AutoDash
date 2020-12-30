@@ -217,6 +217,7 @@ class BBFields:
                     box.y1,
                     box.x2,
                     box.y2,
+                    obj.has_collision
                 ))
         return data
 
